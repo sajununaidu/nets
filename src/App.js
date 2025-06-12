@@ -15,10 +15,6 @@ function App() {
   const loginPaths = ['/admin', '/login'];
   const landingPagePath = ['/', '/home', '/landing-page'];
 
-  useEffect(()=>{
-    window.location.hash = "/#nets/";
-  },[])
-
   return (
     <SnackbarProvider autoHideDuration={2000} maxSnack={3} TransitionComponent={TransitionUp} anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }} >
       <Routes>
