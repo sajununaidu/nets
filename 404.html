@@ -4,5 +4,14 @@
     <meta http-equiv="refresh" content="0; url=/nets/" />
   </head>
   <body>
+    <script>
+      function loadHash() {
+        if (window.counts !== 1){
+          window.location.hash = "/nets/#/nets";
+        }
+        window.counts = 1;
+      }
+      loadHash();
+    </script>
   </body>
 </html>
