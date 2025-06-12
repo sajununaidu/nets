@@ -7,11 +7,10 @@
     <script>
       function loadHash() {
         if (window.counts !== 1){
+          window.counts = 1;
           window.location.pathname = "/nets/#/nets";
-
         }
         console.log("@@@@@@@@@@2 test")
-        window.counts = 1;
       }
       loadHash();
     </script>
