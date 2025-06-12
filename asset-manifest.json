@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/nets/static/css/main.e53ca3f5.css",
+    "main.js": "/nets/static/js/main.2668794a.js",
+    "static/media/LoginBackground.png": "/nets/static/media/LoginBackground.409f9a37c08f26fc1e21.png",
+    "static/media/balcny.jpg": "/nets/static/media/balcny.30266d97db5bc849faa2.jpg",
+    "static/media/balcony.jpg": "/nets/static/media/balcony.c405b521700ef60afbb1.jpg",
+    "static/media/griled_balcny.jpg": "/nets/static/media/griled_balcny.07cd49bb5f42a3f00fb5.jpg",
+    "static/media/swimming.jpg": "/nets/static/media/swimming.c6b42514aa2f503164ae.jpg",
+    "static/media/monkey.jpg": "/nets/static/media/monkey.de2ac8903608967e59ce.jpg",
+    "static/media/car_parking.jpg": "/nets/static/media/car_parking.d79bc82c4a2f37e6d9ee.jpg",
+    "static/media/cricet_nets.jpg": "/nets/static/media/cricet_nets.7dfaf0d67e46e6d71901.jpg",
+    "static/media/cricket.jpg": "/nets/static/media/cricket.041894e0858a117a22b8.jpg",
+    "static/media/industrial.jpg": "/nets/static/media/industrial.d102ba81fa85116e4c92.jpg",
+    "static/media/children_saftey.jpg": "/nets/static/media/children_saftey.86e73434507194d94c54.jpg",
+    "static/media/pet_saftey.jpg": "/nets/static/media/pet_saftey.9a07b78f5e483a3eb446.jpg",
+    "static/media/construction.jpg": "/nets/static/media/construction.ea9f1e44c0804a11b7e0.jpg",
+    "static/media/staircase.jpg": "/nets/static/media/staircase.dc8270f4be80565435df.jpg",
+    "static/media/Duct_area_saftey.jpg": "/nets/static/media/Duct_area_saftey.e7de0402820448a6fd54.jpg",
+    "static/media/netslogo.jpg": "/nets/static/media/netslogo.f84e23b5b01af2fe394e.jpg",
+    "index.html": "/nets/index.html",
+    "main.e53ca3f5.css.map": "/nets/static/css/main.e53ca3f5.css.map",
+    "main.2668794a.js.map": "/nets/static/js/main.2668794a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e53ca3f5.css",
+    "static/js/main.2668794a.js"
+  ]
+}
