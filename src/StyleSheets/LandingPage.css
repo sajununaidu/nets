@@ -1,0 +1,102 @@
+.parentBox{
+   width: auto;
+   height: 100dvh;
+   display: flex;
+   flex-direction: column;
+}
+
+.fade-in {
+   opacity: 0;
+   animation: fadeIn 2s ease-in forwards;
+ }
+ 
+ @keyframes fadeIn {
+   to {
+     opacity: 1;
+   }
+ }
+ 
+
+.header{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(141, 175, 206);
+   flex-wrap: wrap;
+}
+
+@media only screen and (max-width:599px){
+   .contentBox{
+      width: 100%;
+      height: calc(100dvh - 100px);
+      display: flex;
+      flex-direction: column;
+   }
+
+   .addImage {
+      bottom: 47px;
+   }
+
+   .header{
+      height: 128px;
+   }
+
+   .albumArea{
+      display: flex;
+      height: 100%;
+      background: white;
+      width: inherit;
+   }
+
+   .infoArea{
+      height: auto;
+      background: rgb(141, 175, 206);
+      width: inherit;
+   }
+}
+
+@media only screen and (min-width: 600px) {
+   .contentBox{
+      width: 100%;
+      height: calc(100dvh - 100px);
+      display: flex;
+      flex-direction: row;
+   }
+
+   .addImage {
+      bottom: 30px;
+   }
+
+   .header{
+      height: 110px;
+   }
+
+   .albumArea{
+      display: flex;
+      height: 100%;
+      background: white;
+      width: 70%;
+   }
+
+   .infoArea{
+      height: 100%;
+      width: 30%;
+   }
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin: 10px !important; /* gutter size offset */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding: 16px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* optional: fix image spacing */
+.my-masonry-grid_column > Box {
+  margin-bottom: 16px;
+}
